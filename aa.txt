@@ -1,0 +1,12 @@
+(base) C:\Users\athi0\OneDrive\Desktop\CaterPillar\workspace\monodepth2>set KMP_DUPLICATE_LIB_OK=TRUE
+
+(base) C:\Users\athi0\OneDrive\Desktop\CaterPillar\workspace\monodepth2>python test_simple.py --image_path assets/test_image2.jpg --model_name mono+stereo_640x192
+
+-----------------------------------
+
+PS C:\Users\athi0\OneDrive\Desktop\CaterPillar\workspace> & C:/Python312/python.exe c:/Users/athi0/OneDrive/Desktop/CaterPillar/workspace/run_combined.py
+
+---------------------------------
+
+PS C:\Users\athi0\OneDrive\Desktop\CaterPillar\workspace\yolov5>python detect.py --source ../monodepth2/assets/test_image2.jpg --weights yolov5s.pt --conf 0.5
+>> ^C
